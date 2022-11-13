@@ -1,0 +1,73 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body{
+    font-family: cursive;
+    background:linear-gradient( 50deg,#5617e6, #c2fb1b)
+    
+    
+    
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 2px 3px black;
+    color: green;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+.color{
+    height: 150px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.yellow {
+    color: yellow;
+}
+.red{
+    color: red;
+}
+
+.color:hover{
+    width: 320px;
+    height: 160px;
+    transition: 500ms;
+    box-shadow: 4px 4px 8px black;
+}
+.color:active{
+    box-shadow: 8px 8px 12px red;
+    border-color: red;
+}
